@@ -1,0 +1,3 @@
+litellm
+openai
+dotenv-python
