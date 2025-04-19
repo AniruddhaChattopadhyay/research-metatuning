@@ -1,0 +1,621 @@
+video_filename,question_idx,question,question_type,correct_answer,llm_answer_with_metatuning,judge_answer_with_metatuning,llm_answer_wo_metatuning,judge_answer_wo_metatuning
+video_00000.mp4,question_3,How many collisions happen after the cube enters the scene?,descriptive,3,0,incorrect,2,incorrect
+video_00000.mp4,question_4,How many objects enter the scene?,descriptive,2,1,incorrect,1,incorrect
+video_00000.mp4,question_5,Are there collisions before the cube enters the scene?,descriptive,no,No,correct,No,correct
+video_00000.mp4,question_6,What color is the stationary rubber object?,descriptive,yellow,Yellow,correct,Teal,correct
+video_00000.mp4,question_7,What is the shape of the metal object that is moving?,descriptive,cube,cube,correct,Cube,correct
+video_00000.mp4,question_8,How many moving cubes are there?,descriptive,1,1,correct,One,correct
+video_00000.mp4,question_9,How many metal objects are stationary when the blue rubber object exits the scene?,descriptive,1,4,incorrect,5,incorrect
+video_00000.mp4,question_10,Are there any stationary brown objects?,descriptive,no,No,correct,No.,correct
+video_00000.mp4,question_11,Which of the following is responsible for the collision between the gray object and the cube?,explanatory,option 4 : the presence of the blue rubber sphere,the collision between the gray sphere and the purple sphere,incorrect,the collision between the gray sphere and the purple sphere,incorrect
+video_00000.mp4,question_12,Which of the following is responsible for the gray sphere's colliding with the purple object?,explanatory,option 4 : the collision between the blue rubber sphere and the gray object,the cube's entering the scene,incorrect,the cube's entering the scene,incorrect
+video_00000.mp4,question_13,Which event will happen if the cylinder is removed?,counterfactual,option 4 : The gray sphere and the cube collide,The gray sphere and the cube collide,correct,The gray sphere and the cube collide,correct
+video_00000.mp4,question_14,"Without the metal sphere, which event will not happen?",counterfactual,option 3 : The purple sphere and the cylinder collide,The gray sphere collides with the cylinder,incorrect,The gray object and the cube collide.,incorrect
+video_00001.mp4,question_3,How many gray spheres exit the scene after the cylinder enters the scene?,descriptive,1,1,correct,Zero.,correct
+video_00001.mp4,question_4,How many rubber objects exit the scene?,descriptive,1,0,incorrect,1,incorrect
+video_00001.mp4,question_5,Are there any cylinders that exit the scene before the gray sphere exits the scene?,descriptive,no,Yes,incorrect,Yes.,incorrect
+video_00001.mp4,question_6,What color is the stationary rubber object when the video begins?,descriptive,gray,red,incorrect,Red,incorrect
+video_00001.mp4,question_7,What material is the moving sphere when the video ends?,descriptive,metal,metal,correct,Purple,correct
+video_00001.mp4,question_8,How many moving metal objects are there when the video ends?,descriptive,1,0,incorrect,One,incorrect
+video_00001.mp4,question_9,How many moving cylinders are there?,descriptive,1,1,correct,One,correct
+video_00001.mp4,question_10,Are there any moving metal objects when the video ends?,descriptive,yes,No,incorrect,No.,incorrect
+video_00001.mp4,question_11,Which of the following is responsible for the gray object's exit?,explanatory,option 4 : the presence of the metal object,the collision between the metal object and the gray sphere,incorrect,the presence of the blue rubber object,incorrect
+video_00001.mp4,question_12,Which of the following is not responsible for the purple sphere's colliding with the gray object?,explanatory,option 3 : the presence of the rubber cylinder,the presence of the cube,incorrect,the presence of the cube,incorrect
+video_00001.mp4,question_13,What will happen next?,predictive,option 2 : The cube and the cylinder collide,The cube and the cylinder collide,correct,The cylinder and the rubber sphere collide,correct
+video_00001.mp4,question_14,"Without the cube, which event will happen?",counterfactual,option 1 : The cylinder collides with the gray object,The purple sphere collides with the cylinder,incorrect,The purple sphere collides with the cylinder,incorrect
+video_00001.mp4,question_15,What will not happen without the cylinder?,counterfactual,option 2 : The cube collides with the gray sphere,The cube collides with the gray sphere,correct,The cube collides with the gray sphere,correct
+video_00002.mp4,question_3,How many rubber objects enter the scene after the metal object enters the scene?,descriptive,1,0,incorrect,1,incorrect
+video_00002.mp4,question_4,How many metal objects enter the scene before the gray sphere enters the scene?,descriptive,1,1,correct,1,correct
+video_00002.mp4,question_5,Are there any cubes that enter the scene?,descriptive,no,yes,incorrect,No,incorrect
+video_00002.mp4,question_6,What is the material of the cube that is moving when the video ends?,descriptive,rubber,rubber,correct,Gray,correct
+video_00002.mp4,question_7,What material is the cube that is stationary when the video ends?,descriptive,rubber,rubber,correct,Foam,correct
+video_00002.mp4,question_8,How many objects are moving when the video ends?,descriptive,3,0,incorrect,Zero,incorrect
+video_00002.mp4,question_9,How many moving gray objects are there?,descriptive,1,1,correct,One,correct
+video_00002.mp4,question_10,Are there any moving red objects?,descriptive,yes,no,incorrect,No.,incorrect
+video_00002.mp4,question_11,Which of the following is responsible for the yellow object's colliding with the cyan object?,explanatory,,the presence of the gray rubber object,incorrect,the presence of the gray rubber object,incorrect
+video_00002.mp4,question_12,Which of the following is responsible for the cyan cube's colliding with the red cube?,explanatory,option 3 : the yellow sphere's entrance,the presence of the yellow metal object,incorrect,the yellow sphere's entrance,incorrect
+video_00002.mp4,question_13,Which event will happen if the cyan cube is removed?,counterfactual,option 3 : The yellow object and the gray sphere collide,The yellow object and the red object collide,incorrect,The yellow object and the red object collide,incorrect
+video_00003.mp4,question_3,How many collisions happen?,descriptive,2,2,correct,2,correct
+video_00003.mp4,question_4,How many objects enter the scene?,descriptive,1,1,correct,One,correct
+video_00003.mp4,question_5,Are there any cubes that exit the scene?,descriptive,no,No,correct,No.,correct
+video_00003.mp4,question_6,What is the shape of the metal object that is stationary?,descriptive,cylinder,Cylinder,correct,Cylinder,correct
+video_00003.mp4,question_7,What is the shape of the rubber object that is stationary when the video begins?,descriptive,sphere,Cylinder,incorrect,Sphere,incorrect
+video_00003.mp4,question_8,How many moving objects are there?,descriptive,3,1,incorrect,1,incorrect
+video_00003.mp4,question_9,How many rubber objects are moving when the video ends?,descriptive,2,0,incorrect,Zero,incorrect
+video_00003.mp4,question_10,Are there any stationary gray objects?,descriptive,no,Yes,incorrect,Yes.,incorrect
+video_00003.mp4,question_11,Which of the following is not responsible for the sphere's colliding with the cube?,explanatory,option 3 : the presence of the yellow metal cylinder,the presence of the yellow metal cylinder,correct,the presence of the yellow metal cylinder,correct
+video_00003.mp4,question_12,Which of the following is not responsible for the collision between the gray object and the sphere?,explanatory,option 3 : the sphere's colliding with the cube,the presence of the yellow metal object,incorrect,the presence of the yellow metal object,incorrect
+video_00003.mp4,question_13,Which event will happen next?,predictive,option 1 : The rubber cylinder collides with the cube,The rubber cylinder collides with the cube,correct,The rubber cylinder collides with the cube,correct
+video_00003.mp4,question_14,Which event will happen without the yellow cylinder?,counterfactual,option 3 : The rubber cylinder and the cube collide,The sphere collides with the cube,incorrect,The rubber cylinder and the sphere collide,incorrect
+video_00004.mp4,question_3,How many spheres enter the scene?,descriptive,0,1,incorrect,Zero,incorrect
+video_00004.mp4,question_4,How many collisions happen after the rubber cylinder enters the scene?,descriptive,4,0,incorrect,2,incorrect
+video_00004.mp4,question_5,Are there any objects that exit the scene after the purple object enters the scene?,descriptive,no,No,correct,No,correct
+video_00004.mp4,question_6,What color is the rubber object that is stationary when the metal cube enters the scene?,descriptive,blue,Blue,correct,Yellow,correct
+video_00004.mp4,question_7,What material is the stationary cylinder when the green cylinder enters the scene?,descriptive,metal,Rubber,incorrect,Cyan,incorrect
+video_00004.mp4,question_8,How many stationary metal objects are there when the video ends?,descriptive,3,5,incorrect,6,incorrect
+video_00004.mp4,question_9,How many moving objects are there when the video ends?,descriptive,2,0,incorrect,6,incorrect
+video_00004.mp4,question_10,Are there any stationary cyan objects when the purple object enters the scene?,descriptive,yes,yes,correct,Yes,correct
+video_00004.mp4,question_11,Which of the following is responsible for the collision between the rubber cylinder and the purple cube?,explanatory,,the presence of the cyan object,incorrect,the presence of the cyan object,incorrect
+video_00004.mp4,question_12,Which of the following is responsible for the collision between the yellow cylinder and the green object?,explanatory,option 4 : the purple cube's entering the scene,the presence of the purple object,correct,the presence of the purple object,correct
+video_00004.mp4,question_13,What will not happen if the sphere is removed?,counterfactual,option 4 : The purple object collides with the green object,The purple object collides with the green object,correct,The rubber cylinder and the cyan object collide,correct
+video_00004.mp4,question_14,Which of the following will happen if the blue object is removed?,counterfactual,option 3 : The yellow cylinder collides with the purple object,The yellow cylinder collides with the purple object,correct,The yellow cylinder collides with the purple object,correct
+video_00005.mp4,question_3,How many collisions happen before the yellow cylinder enters the scene?,descriptive,0,0,correct,0,correct
+video_00005.mp4,question_4,How many collisions happen after the purple sphere enters the scene?,descriptive,0,0,correct,One.,correct
+video_00005.mp4,question_5,Are there any cyan objects that enter the scene before the purple object enters the scene?,descriptive,no,Yes,incorrect,Yes,incorrect
+video_00005.mp4,question_6,What color is the metal cylinder that is stationary when the yellow cylinder enters the scene?,descriptive,gray,Gray,correct,Gray,correct
+video_00005.mp4,question_7,What material is the sphere that is stationary when the yellow object enters the scene?,descriptive,metal,Metal,correct,Blue,correct
+video_00005.mp4,question_8,How many moving objects are there when the video ends?,descriptive,2,1,incorrect,One.,incorrect
+video_00005.mp4,question_9,How many moving metal objects are there?,descriptive,4,2,incorrect,5,incorrect
+video_00005.mp4,question_10,Are there any stationary yellow objects when the video ends?,descriptive,yes,Yes,correct,Yes.,correct
+video_00005.mp4,question_11,Which of the following is responsible for the collision between the cyan object and the gray cylinder?,explanatory,,the presence of the blue sphere,incorrect,the collision between the gray cylinder and the yellow object,incorrect
+video_00005.mp4,question_12,Which of the following is not responsible for the gray cylinder's colliding with the yellow object?,explanatory,option 2 : the presence of the purple metal object,the presence of the cyan metal cylinder,incorrect,the presence of the blue metal sphere,incorrect
+video_00005.mp4,question_13,What will happen next?,predictive,option 1 : The gray object collides with the purple object,The gray object collides with the purple object,correct,The gray object collides with the purple object,correct
+video_00005.mp4,question_14,What will not happen without the blue sphere?,counterfactual,option 4 : The cyan cylinder and the purple object collide,The gray object collides with the purple object,incorrect,The cyan cylinder and the gray cylinder collide,incorrect
+video_00006.mp4,question_3,How many collisions happen after the blue sphere enters the scene?,descriptive,0,0,correct,0,correct
+video_00006.mp4,question_4,How many cubes enter the scene before the blue sphere enters the scene?,descriptive,1,1,correct,One,correct
+video_00006.mp4,question_5,Are there any red spheres that exit the scene after the red object enters the scene?,descriptive,no,No,correct,No,correct
+video_00006.mp4,question_6,What is the material of the object that is stationary when the video ends?,descriptive,rubber,Rubber,correct,Gold,correct
+video_00006.mp4,question_7,What shape is the stationary metal object when the video begins?,descriptive,cube,Cube,correct,Cube,correct
+video_00006.mp4,question_8,How many moving spheres are there when the video ends?,descriptive,2,4,incorrect,Two,incorrect
+video_00006.mp4,question_9,How many stationary brown objects are there when the blue sphere enters the scene?,descriptive,1,1,correct,1,correct
+video_00006.mp4,question_10,Are there any moving green objects?,descriptive,no,No,correct,No.,correct
+video_00006.mp4,question_11,Which of the following is not responsible for the red object's colliding with the blue cube?,explanatory,option 3 : the presence of the brown object,the presence of the brown object,correct,the presence of the brown object,correct
+video_00006.mp4,question_12,Which of the following is responsible for the collision between the red object and the purple cube?,explanatory,option 4 : the collision between the red object and the blue cube,the collision between the red object and the blue cube,correct,the blue cube's entrance,correct
+video_00006.mp4,question_13,What will happen next?,predictive,option 1 : The red sphere collides with the blue sphere,The blue cube collides with the brown object,incorrect,The blue cube collides with the brown object,incorrect
+video_00006.mp4,question_14,"Without the red sphere, what will happen?",counterfactual,option 3 : The blue cube collides with the purple cube,The blue cube and the blue sphere collide,incorrect,The blue cube and the blue sphere collide,incorrect
+video_00006.mp4,question_15,"Without the purple cube, what will not happen?",counterfactual,option 4 : The blue cube and the blue sphere collide,The red object collides with the blue sphere,incorrect,The red object collides with the blue sphere,incorrect
+video_00007.mp4,question_3,How many rubber cylinders enter the scene?,descriptive,1,1,correct,One,correct
+video_00007.mp4,question_4,How many collisions happen after the cylinder enters the scene?,descriptive,3,2,incorrect,1,incorrect
+video_00007.mp4,question_5,Are there any rubber cylinders that enter the scene?,descriptive,yes,Yes,correct,No,correct
+video_00007.mp4,question_6,What shape is the rubber object that is moving when the video ends?,descriptive,sphere,cylinder,incorrect,Sphere,incorrect
+video_00007.mp4,question_7,What is the color of the moving metal object when the cylinder enters the scene?,descriptive,brown,brown,correct,Gold,correct
+video_00007.mp4,question_8,How many spheres are moving when the video ends?,descriptive,2,0,incorrect,Zero,incorrect
+video_00007.mp4,question_9,How many purple objects are stationary when the video begins?,descriptive,2,2,correct,Two,correct
+video_00007.mp4,question_10,Are there any moving cyan objects when the video ends?,descriptive,no,No,correct,No.,correct
+video_00007.mp4,question_11,Which of the following is responsible for the collision between the rubber sphere and the brown object?,explanatory,option 4 : the presence of the blue metal object,the presence of the blue metal object,correct,the presence of the blue metal object,correct
+video_00007.mp4,question_12,Which of the following is responsible for the collision between the cylinder and the purple sphere?,explanatory,,the presence of the rubber cube,incorrect,the purple sphere's colliding with the brown object,incorrect
+video_00007.mp4,question_13,"Without the cylinder, what will happen?",counterfactual,option 1 : The blue object collides with the brown object,The blue object collides with the brown object,correct,The purple sphere and the metal sphere collide,correct
+video_00007.mp4,question_14,"Without the purple metal object, which event will not happen?",counterfactual,option 4 : The cylinder and the brown object collide,The rubber sphere and the brown object collide,incorrect,The rubber sphere and the brown object collide,incorrect
+video_00008.mp4,question_3,How many green cylinders exit the scene after the sphere enters the scene?,descriptive,0,1,incorrect,Zero,incorrect
+video_00008.mp4,question_4,How many rubber objects enter the scene?,descriptive,2,1,incorrect,One,incorrect
+video_00008.mp4,question_5,Are there any cylinders that enter the scene before the cube enters the scene?,descriptive,yes,Yes,correct,Yes.,correct
+video_00008.mp4,question_6,What is the color of the moving metal object when the video ends?,descriptive,red,red,correct,Red,correct
+video_00008.mp4,question_7,What is the color of the rubber object that is stationary when the video begins?,descriptive,purple,Gray,incorrect,Purple,incorrect
+video_00008.mp4,question_8,How many rubber objects are stationary when the cube enters the scene?,descriptive,1,3,incorrect,3,incorrect
+video_00008.mp4,question_9,How many cyan objects are moving when the sphere enters the scene?,descriptive,1,0,incorrect,Zero,incorrect
+video_00008.mp4,question_10,Are there any stationary metal objects?,descriptive,yes,Yes,correct,Yes.,correct
+video_00008.mp4,question_11,Which of the following is not responsible for the collision between the green cylinder and the purple cylinder?,explanatory,option 2 : the presence of the red metal object,the presence of the gray metal cylinder,incorrect,the presence of the cyan rubber object,incorrect
+video_00008.mp4,question_12,Which of the following is not responsible for the collision between the green object and the cube?,explanatory,option 3 : the presence of the metal cylinder,the presence of the metal cylinder,correct,the presence of the metal cylinder,correct
+video_00008.mp4,question_13,Which event will happen next?,predictive,option 2 : The green object and the sphere collide,The green object and the sphere collide,correct,The green object and the sphere collide,correct
+video_00008.mp4,question_14,Which event will not happen without the metal cylinder?,counterfactual,option 4 : The cube and the purple cylinder collide,The purple cylinder collides with the sphere,incorrect,The green cylinder collides with the purple object.,incorrect
+video_00008.mp4,question_15,"If the cube is removed, what will happen?",counterfactual,option 4 : The purple object and the sphere collide,The green object and the purple cylinder collide,incorrect,The green object and the purple cylinder collide,incorrect
+video_00009.mp4,question_3,How many green spheres enter the scene before the rubber cylinder enters the scene?,descriptive,1,1,correct,One.,correct
+video_00009.mp4,question_4,How many spheres enter the scene?,descriptive,1,1,correct,One,correct
+video_00009.mp4,question_5,Are there any green spheres that exit the scene?,descriptive,no,No,correct,No.,correct
+video_00009.mp4,question_6,What material is the yellow object that is stationary when the video begins?,descriptive,metal,metal,correct,Cylinder.,correct
+video_00009.mp4,question_7,What is the color of the moving metal object when the rubber cylinder enters the scene?,descriptive,green,green,correct,Green,correct
+video_00009.mp4,question_8,How many stationary cylinders are there when the sphere enters the scene?,descriptive,3,4,incorrect,4,incorrect
+video_00009.mp4,question_9,How many cylinders are moving?,descriptive,3,0,incorrect,0,incorrect
+video_00009.mp4,question_10,Are there any moving green objects?,descriptive,yes,yes,correct,Yes,correct
+video_00009.mp4,question_11,Which of the following is not responsible for the collision between the sphere and the yellow metal cylinder?,explanatory,option 4 : the presence of the cyan metal object,the presence of the cyan metal object,correct,the presence of the cyan metal object,correct
+video_00009.mp4,question_12,Which of the following is responsible for the collision between the sphere and the rubber object?,explanatory,option 3 : the presence of the yellow metal cylinder,the presence of the yellow metal cylinder,correct,the sphere's colliding with the yellow metal object,correct
+video_00009.mp4,question_13,Which event will happen next?,predictive,option 1 : The sphere collides with the brown cylinder,The sphere collides with the brown cylinder,correct,The sphere collides with the brown cylinder,correct
+video_00009.mp4,question_14,Which event will not happen without the cyan cylinder?,counterfactual,option 3 : The rubber cylinder collides with the brown cylinder,The yellow metal cylinder collides with the rubber object,incorrect,The yellow metal cylinder collides with the rubber object,incorrect
+video_00009.mp4,question_15,"Without the brown object, what will happen?",counterfactual,option 1 : The sphere and the yellow metal object collide,The sphere collides with the cyan cylinder,incorrect,The sphere and the yellow metal object collide,incorrect
+video_00010.mp4,question_3,How many objects enter the scene?,descriptive,2,2,correct,2,correct
+video_00010.mp4,question_4,How many metal spheres enter the scene before the cube enters the scene?,descriptive,1,1,correct,One.,correct
+video_00010.mp4,question_5,Are there any yellow objects that enter the scene before the cube enters the scene?,descriptive,yes,No,incorrect,Yes,incorrect
+video_00010.mp4,question_6,What is the shape of the rubber object that is moving?,descriptive,sphere,sphere,correct,Cube,correct
+video_00010.mp4,question_7,What material is the cyan object that is stationary when the video begins?,descriptive,rubber,plastic,incorrect,Metal,incorrect
+video_00010.mp4,question_8,How many objects are stationary when the cube enters the scene?,descriptive,3,3,correct,Three,correct
+video_00010.mp4,question_9,How many cylinders are stationary when the cube enters the scene?,descriptive,0,0,correct,3,correct
+video_00010.mp4,question_10,Are there any stationary cubes when the video begins?,descriptive,no,No,correct,No,correct
+video_00010.mp4,question_11,Which of the following is responsible for the yellow object's colliding with the gray sphere?,explanatory,,the presence of the metal cube,incorrect,the presence of the metal cube,incorrect
+video_00010.mp4,question_12,Which of the following is not responsible for the cube's colliding with the cyan sphere?,explanatory,option 4 : the presence of the brown object,the presence of the brown object,correct,the yellow sphere's colliding with the gray sphere,correct
+video_00010.mp4,question_13,What will happen next?,predictive,option 1 : The yellow object and the cube collide,The yellow object and the cube collide,correct,The yellow object and the cube collide.,correct
+video_00010.mp4,question_14,"Without the cyan sphere, what will happen?",counterfactual,option 4 : The yellow object collides with the gray sphere,The yellow object collides with the gray sphere,correct,The yellow sphere collides with the cube,correct
+video_00010.mp4,question_15,"If the brown object is removed, which of the following will happen?",counterfactual,option 4 : The yellow sphere and the cube collide,The cube and the cyan sphere collide,incorrect,The gray sphere collides with the cube,incorrect
+video_00011.mp4,question_3,How many collisions happen before the rubber cylinder enters the scene?,descriptive,1,0,incorrect,2,incorrect
+video_00011.mp4,question_4,How many yellow objects enter the scene?,descriptive,2,3,incorrect,Two,incorrect
+video_00011.mp4,question_5,Are there any green objects that enter the scene?,descriptive,no,Yes,incorrect,No,incorrect
+video_00011.mp4,question_6,What shape is the yellow object that is stationary when the video begins?,descriptive,cylinder,cylinder,correct,Cylinder,correct
+video_00011.mp4,question_7,What color is the stationary cylinder when the yellow cube enters the scene?,descriptive,yellow,yellow,correct,Gold,correct
+video_00011.mp4,question_8,How many moving yellow objects are there?,descriptive,3,3,correct,2,correct
+video_00011.mp4,question_9,How many objects are moving when the video begins?,descriptive,0,0,correct,One,correct
+video_00011.mp4,question_10,Are there any stationary metal objects when the video begins?,descriptive,yes,Yes,correct,Yes.,correct
+video_00011.mp4,question_11,Which of the following is responsible for the yellow cube's colliding with the metal object?,explanatory,,the collision between the metal object and the sphere,incorrect,the sphere's entering the scene,incorrect
+video_00011.mp4,question_12,Which of the following is responsible for the metal object's colliding with the sphere?,explanatory,option 4 : the yellow cube's entrance,the metal cylinder's colliding with the rubber cylinder,incorrect,the yellow cube's entrance,incorrect
+video_00011.mp4,question_13,"If the green object is removed, which of the following will happen?",counterfactual,option 4 : The metal cylinder collides with the sphere,The metal cylinder collides with the sphere,correct,The metal cylinder collides with the sphere,correct
+video_00011.mp4,question_14,Which of the following will not happen if the metal cylinder is removed?,counterfactual,option 4 : The yellow cube and the green cube collide,The yellow cube and the green cube collide,correct,The yellow cube and the rubber cylinder collide,correct
+video_00012.mp4,question_3,How many objects enter the scene?,descriptive,1,1,correct,0,correct
+video_00012.mp4,question_4,How many collisions happen?,descriptive,2,0,incorrect,Zero.,incorrect
+video_00012.mp4,question_5,Are there any metal objects that enter the scene after the blue sphere enters the scene?,descriptive,no,No,correct,Yes.,correct
+video_00012.mp4,question_6,What is the material of the moving cyan object when the video begins?,descriptive,rubber,Rubber,correct,Sphere,correct
+video_00012.mp4,question_7,What material is the cyan object that is stationary when the video ends?,descriptive,metal,metal,correct,Metal,correct
+video_00012.mp4,question_8,How many moving metal objects are there?,descriptive,1,1,correct,Zero.,correct
+video_00012.mp4,question_9,How many stationary rubber objects are there when the video ends?,descriptive,1,4,incorrect,5,incorrect
+video_00012.mp4,question_10,Are there any stationary gray objects?,descriptive,yes,Yes,correct,Yes,correct
+video_00012.mp4,question_11,Which of the following is not responsible for the cyan cylinder's colliding with the brown cylinder?,explanatory,option 1 : the presence of the purple cylinder,the presence of the purple cylinder,correct,the presence of the purple cylinder,correct
+video_00012.mp4,question_12,Which event will happen next?,predictive,option 2 : The cyan sphere and the blue object collide,The cyan sphere and the blue object collide,correct,The cyan cylinder and the purple cylinder collide.,correct
+video_00012.mp4,question_13,"If the blue sphere is removed, what will not happen?",counterfactual,option 4 : The brown cylinder and the purple object collide,The cyan sphere collides with the cyan cylinder,incorrect,The cyan sphere and the purple cylinder collide,incorrect
+video_00012.mp4,question_14,"Without the gray object, what will happen?",counterfactual,option 2 : The cyan sphere collides with the cyan cylinder,The cyan sphere and the brown object collide,incorrect,The cyan sphere collides with the cyan cylinder,incorrect
+video_00013.mp4,question_3,How many collisions happen after the blue cube enters the scene?,descriptive,1,0,incorrect,One,incorrect
+video_00013.mp4,question_4,How many objects enter the scene?,descriptive,1,1,correct,1,correct
+video_00013.mp4,question_5,Are there any cubes that enter the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00013.mp4,question_6,What shape is the object that is moving when the video begins?,descriptive,cube,cube,correct,Cube,correct
+video_00013.mp4,question_7,What is the color of the cylinder that is stationary?,descriptive,purple,purple,correct,Teal,correct
+video_00013.mp4,question_8,How many moving rubber objects are there when the blue cube enters the scene?,descriptive,0,0,correct,One,correct
+video_00013.mp4,question_9,How many moving objects are there when the video ends?,descriptive,2,1,incorrect,One,incorrect
+video_00013.mp4,question_10,Are there any moving rubber objects?,descriptive,no,No,correct,Yes,correct
+video_00013.mp4,question_11,Which of the following is not responsible for the cyan cylinder's colliding with the sphere?,explanatory,option 4 : the presence of the rubber cylinder,the presence of the rubber cylinder,correct,the presence of the rubber cylinder,correct
+video_00013.mp4,question_12,Which of the following is responsible for the collision between the sphere and the blue object?,explanatory,option 3 : the presence of the cyan cylinder,the gray cube's colliding with the cyan object,incorrect,the gray cube's colliding with the cyan object,incorrect
+video_00013.mp4,question_13,Which event will happen next?,predictive,option 2 : The cyan cylinder and the blue cube collide,The cyan cylinder and the blue cube collide,correct,The gray object and the blue object collide,correct
+video_00013.mp4,question_14,What will happen if the purple object is removed?,counterfactual,option 1 : The cyan cylinder and the sphere collide,The gray cube and the sphere collide,incorrect,The gray cube and the sphere collide,incorrect
+video_00013.mp4,question_15,Which of the following will not happen if the sphere is removed?,counterfactual,option 4 : The cyan cylinder collides with the purple cylinder,The gray object collides with the purple cylinder,incorrect,The gray object and the purple cylinder,incorrect
+video_00014.mp4,question_3,How many collisions happen after the sphere enters the scene?,descriptive,2,2,correct,1,correct
+video_00014.mp4,question_4,How many rubber cylinders enter the scene before the sphere enters the scene?,descriptive,0,1,incorrect,Zero,incorrect
+video_00014.mp4,question_5,Are there any red cubes that enter the scene after the sphere enters the scene?,descriptive,yes,Yes,correct,Yes.,correct
+video_00014.mp4,question_6,What color is the stationary rubber object when the rubber cube enters the scene?,descriptive,brown,Brown,correct,Red,correct
+video_00014.mp4,question_7,What color is the cylinder that is moving?,descriptive,gray,Brown,incorrect,Gray,incorrect
+video_00014.mp4,question_8,How many red objects are moving when the video ends?,descriptive,1,0,incorrect,Zero,incorrect
+video_00014.mp4,question_9,How many moving rubber objects are there when the video ends?,descriptive,1,0,incorrect,Four,incorrect
+video_00014.mp4,question_10,Are there any stationary gray objects when the video ends?,descriptive,yes,Yes,correct,Yes.,correct
+video_00014.mp4,question_11,Which of the following is not responsible for the collision between the gray cylinder and the yellow cube?,explanatory,option 3 : the presence of the brown rubber cylinder,the red object's entering the scene,incorrect,the red object's entering the scene,incorrect
+video_00014.mp4,question_12,Which event will happen next?,predictive,option 2 : The sphere collides with the red object,The red object and the yellow object collide,incorrect,The sphere collides with the red object,incorrect
+video_00014.mp4,question_13,Which event will happen if the yellow cube is removed?,counterfactual,option 3 : The sphere collides with the gray object,The sphere collides with the gray object,correct,The sphere collides with the gray object,correct
+video_00014.mp4,question_14,"Without the brown cylinder, what will happen?",counterfactual,option 4 : The sphere collides with the rubber cube,The gray object and the yellow cube collide,incorrect,The gray object and the yellow cube collide,incorrect
+video_00015.mp4,question_3,How many collisions happen after the blue cube enters the scene?,descriptive,0,0,correct,One,correct
+video_00015.mp4,question_4,How many objects enter the scene?,descriptive,1,1,correct,One,correct
+video_00015.mp4,question_5,Are there any metal cubes that exit the scene?,descriptive,yes,No,incorrect,Yes.,incorrect
+video_00015.mp4,question_6,What is the shape of the moving metal object when the video ends?,descriptive,cube,Cube,correct,Cube,correct
+video_00015.mp4,question_7,What shape is the moving object when the video ends?,descriptive,cube,Cube,correct,Cube.,correct
+video_00015.mp4,question_8,How many rubber objects are moving when the video ends?,descriptive,0,0,correct,Zero,correct
+video_00015.mp4,question_9,How many moving metal objects are there?,descriptive,4,1,incorrect,1,incorrect
+video_00015.mp4,question_10,Are there any moving cyan objects?,descriptive,yes,no,incorrect,No.,incorrect
+video_00015.mp4,question_11,Which of the following is not responsible for the yellow cube's colliding with the green object?,explanatory,option 3 : the blue object's entrance,the blue object's entrance,correct,"""the blue object's entrance""",correct
+video_00015.mp4,question_12,Which of the following is not responsible for the green object's colliding with the cyan cube?,explanatory,option 1 : the presence of the blue metal cube,the presence of the blue metal cube,correct,the presence of the blue metal cube,correct
+video_00015.mp4,question_13,What will happen next?,predictive,option 2 : The green cube and the blue cube collide,The green cube and the blue cube collide,correct,The green cube and the blue cube collide,correct
+video_00015.mp4,question_14,What will happen without the green object?,counterfactual,option 4 : The yellow cube collides with the cyan cube,The cyan cube and the blue cube collide,incorrect,The cyan cube and the blue cube collide,incorrect
+video_00015.mp4,question_15,Which event will not happen without the blue object?,counterfactual,option 1 : The yellow cube and the cyan object collide,The yellow cube and the green object collide,incorrect,The yellow cube and the green object collide,incorrect
+video_00016.mp4,question_3,How many metal objects enter the scene?,descriptive,2,2,correct,1,correct
+video_00016.mp4,question_4,How many collisions happen after the cube enters the scene?,descriptive,3,2,incorrect,One.,incorrect
+video_00016.mp4,question_5,Are there any metal cylinders that enter the scene?,descriptive,no,No,correct,No,correct
+video_00016.mp4,question_6,What material is the sphere that is moving when the cube enters the scene?,descriptive,metal,Metal,correct,Green,correct
+video_00016.mp4,question_7,What is the color of the metal sphere that is stationary when the cube enters the scene?,descriptive,green,Gold,incorrect,Green,incorrect
+video_00016.mp4,question_8,How many stationary gray objects are there when the yellow sphere enters the scene?,descriptive,0,0,correct,Zero.,correct
+video_00016.mp4,question_9,How many moving metal objects are there when the video ends?,descriptive,4,0,incorrect,4,incorrect
+video_00016.mp4,question_10,Are there any stationary cylinders when the yellow object enters the scene?,descriptive,yes,Yes,correct,Yes.,correct
+video_00016.mp4,question_11,Which of the following is not responsible for the collision between the yellow object and the cylinder?,explanatory,option 4 : the collision between the cube and the green sphere,the presence of the cube,incorrect,the presence of the green sphere,incorrect
+video_00016.mp4,question_12,Which of the following is responsible for the collision between the cube and the green sphere?,explanatory,option 3 : the collision between the yellow object and the cube,the yellow object's entrance,incorrect,the presence of the yellow metal sphere,incorrect
+video_00016.mp4,question_13,Which event will happen if the cylinder is removed?,counterfactual,option 1 : The cube collides with the green sphere,The yellow sphere collides with the green sphere,incorrect,The yellow sphere collides with the green sphere,incorrect
+video_00017.mp4,question_3,How many collisions happen after the red object enters the scene?,descriptive,2,2,correct,Two,correct
+video_00017.mp4,question_4,How many objects enter the scene?,descriptive,3,3,correct,1,correct
+video_00017.mp4,question_5,Are there any cyan spheres that enter the scene after the purple object enters the scene?,descriptive,yes,No,incorrect,No,incorrect
+video_00017.mp4,question_6,What is the material of the moving cube?,descriptive,metal,metal,correct,Red,correct
+video_00017.mp4,question_7,What material is the sphere that is stationary when the video begins?,descriptive,rubber,rubber,correct,Blue,correct
+video_00017.mp4,question_8,How many moving rubber objects are there when the video ends?,descriptive,3,2,incorrect,3,incorrect
+video_00017.mp4,question_9,How many moving rubber objects are there?,descriptive,3,2,incorrect,2,incorrect
+video_00017.mp4,question_10,Are there any stationary yellow objects when the video ends?,descriptive,yes,yes,correct,Yes.,correct
+video_00017.mp4,question_11,Which of the following is responsible for the collision between the purple object and the blue object?,explanatory,option 4 : the presence of the metal object,the metal object's entrance,incorrect,the presence of the metal object,incorrect
+video_00017.mp4,question_12,What will happen next?,predictive,option 2 : The metal cube collides with the cyan object,The blue sphere collides with the rubber cube,incorrect,The blue sphere collides with the rubber cube.,incorrect
+video_00017.mp4,question_13,"If the yellow cube is removed, which event will not happen?",counterfactual,option 1 : The purple sphere and the cyan object collide,The red cube and the blue object collide,incorrect,The red cube and the blue object collide,incorrect
+video_00017.mp4,question_14,"If the cyan object is removed, what will happen?",counterfactual,option 3 : The red object collides with the blue object,The red object collides with the blue object,correct,The red object collides with the blue object.,correct
+video_00018.mp4,question_3,How many green cubes enter the scene after the yellow cube enters the scene?,descriptive,0,0,correct,Zero,correct
+video_00018.mp4,question_4,How many green cubes enter the scene?,descriptive,0,1,incorrect,One,incorrect
+video_00018.mp4,question_5,Are there any blue objects that enter the scene?,descriptive,no,No,correct,No,correct
+video_00018.mp4,question_6,What is the material of the yellow object that is moving when the video ends?,descriptive,rubber,rubber,correct,Plastic,correct
+video_00018.mp4,question_7,What color is the metal cylinder that is moving?,descriptive,yellow,purple,incorrect,Yellow,incorrect
+video_00018.mp4,question_8,How many stationary cyan objects are there when the video ends?,descriptive,1,1,correct,One,correct
+video_00018.mp4,question_9,How many moving green objects are there when the rubber cube enters the scene?,descriptive,0,1,incorrect,One,incorrect
+video_00018.mp4,question_10,Are there any moving metal objects when the video begins?,descriptive,no,no,correct,No,correct
+video_00018.mp4,question_11,Which of the following is responsible for the collision between the blue cylinder and the yellow cylinder?,explanatory,,the collision between the yellow cylinder and the green cube,incorrect,the yellow cube's entering the scene,incorrect
+video_00018.mp4,question_12,Which of the following is responsible for the yellow cylinder's colliding with the metal cube?,explanatory,option 1 : the presence of the blue rubber cylinder,the yellow cube's entering the scene,incorrect,the yellow cube's entering the scene,incorrect
+video_00018.mp4,question_13,Which event will happen next?,predictive,option 1 : The yellow cylinder collides with the yellow cube,The yellow cylinder collides with the yellow cube,correct,The yellow cube and the cyan object collide,correct
+video_00018.mp4,question_14,"Without the cyan cylinder, what will not happen?",counterfactual,option 4 : The blue cylinder and the metal cube collide,The yellow cylinder and the yellow cube collide,incorrect,The green object collides with the yellow cube,incorrect
+video_00018.mp4,question_15,Which of the following will not happen without the blue object?,counterfactual,option 4 : The yellow cube and the purple cylinder collide,The yellow cube and the purple cylinder collide,correct,The yellow cube and the purple cylinder collide,correct
+video_00019.mp4,question_3,How many cylinders enter the scene after the metal cylinder exits the scene?,descriptive,1,0,incorrect,Zero,incorrect
+video_00019.mp4,question_4,How many collisions happen before the rubber cylinder enters the scene?,descriptive,2,1,incorrect,2,incorrect
+video_00019.mp4,question_5,Are there any metal objects that exit the scene before the rubber cylinder enters the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00019.mp4,question_6,What is the material of the stationary object when the video ends?,descriptive,metal,metal,correct,Blue,correct
+video_00019.mp4,question_7,What shape is the stationary rubber object when the video begins?,descriptive,sphere,Sphere,correct,Cylinder,correct
+video_00019.mp4,question_8,How many moving cubes are there when the video ends?,descriptive,0,1,incorrect,Zero,incorrect
+video_00019.mp4,question_9,How many moving rubber objects are there?,descriptive,2,2,correct,2,correct
+video_00019.mp4,question_10,Are there any stationary blue objects?,descriptive,yes,Yes,correct,blue,correct
+video_00019.mp4,question_11,Which of the following is responsible for the collision between the rubber sphere and the metal cylinder?,explanatory,option 2 : the metal sphere's colliding with the green sphere,the metal sphere's colliding with the green sphere,correct,the presence of the metal sphere,correct
+video_00019.mp4,question_12,Which of the following is responsible for the metal cylinder's exit?,explanatory,option 2 : the presence of the gray sphere,the collision between the metal sphere and the green sphere,incorrect,the presence of the metal cube,incorrect
+video_00019.mp4,question_13,Which event will happen next?,predictive,option 2 : The metal sphere and the green cylinder collide,The metal sphere and the green cylinder collide,correct,The metal sphere and the green cylinder collide.,correct
+video_00019.mp4,question_14,Which of the following will not happen without the purple cylinder?,counterfactual,option 3 : The rubber cylinder collides with the cube,The gray object and the green sphere collide,incorrect,The green sphere collides with the green cylinder,incorrect
+video_00019.mp4,question_15,Which event will happen without the cube?,counterfactual,option 3 : The metal sphere and the rubber cylinder collide,The green cylinder collides with the metal cylinder,incorrect,The rubber sphere collides with the rubber cylinder,incorrect
+video_00020.mp4,question_3,How many cubes enter the scene?,descriptive,3,3,correct,3,correct
+video_00020.mp4,question_4,How many blue cubes enter the scene before the yellow cube enters the scene?,descriptive,1,1,correct,1,correct
+video_00020.mp4,question_5,Are there any blue objects that enter the scene after the yellow object enters the scene?,descriptive,no,No,correct,No.,correct
+video_00020.mp4,question_6,What is the color of the stationary metal object when the video ends?,descriptive,red,gray,incorrect,Gray,incorrect
+video_00020.mp4,question_7,What is the material of the cube that is stationary?,descriptive,rubber,metal,incorrect,Gray,incorrect
+video_00020.mp4,question_8,How many gray objects are stationary when the blue cube enters the scene?,descriptive,2,2,correct,2,correct
+video_00020.mp4,question_9,How many spheres are moving?,descriptive,0,0,correct,Zero,correct
+video_00020.mp4,question_10,Are there any moving rubber objects?,descriptive,yes,no,incorrect,No,incorrect
+video_00020.mp4,question_11,Which of the following is responsible for the collision between the red cube and the blue cube?,explanatory,option 3 : the presence of the blue cylinder,the collision between the red object and the cylinder,incorrect,the collision between the red object and the cylinder,incorrect
+video_00020.mp4,question_12,Which of the following is responsible for the red object's colliding with the cylinder?,explanatory,,the red object's colliding with the blue cube,incorrect,the presence of the blue cube,incorrect
+video_00020.mp4,question_13,What will happen next?,predictive,option 1 : The cylinder collides with the yellow object,The red cube collides with the yellow cube,incorrect,The red cube collides with the yellow cube.,incorrect
+video_00020.mp4,question_14,Which of the following will happen without the sphere?,counterfactual,option 2 : The red cube collides with the blue cube,The red cube collides with the blue cube,correct,The red cube and the yellow object collide,correct
+video_00020.mp4,question_15,Which of the following will not happen without the red object?,counterfactual,option 3 : The blue cube and the sphere collide,The cylinder and the yellow cube collide,incorrect,The cylinder and the blue cube collide,incorrect
+video_00021.mp4,question_3,How many collisions happen?,descriptive,3,2,incorrect,2,incorrect
+video_00021.mp4,question_4,How many metal objects enter the scene?,descriptive,0,1,incorrect,Zero,incorrect
+video_00021.mp4,question_5,Are there any red objects that enter the scene after the cylinder enters the scene?,descriptive,yes,yes,correct,Yes,correct
+video_00021.mp4,question_6,What shape is the stationary rubber object when the video begins?,descriptive,cube,sphere,incorrect,Cube,incorrect
+video_00021.mp4,question_7,What shape is the stationary rubber object when the cylinder enters the scene?,descriptive,cube,cube,correct,Cube,correct
+video_00021.mp4,question_8,How many moving spheres are there?,descriptive,1,0,incorrect,Zero,incorrect
+video_00021.mp4,question_9,How many metal objects are moving?,descriptive,1,1,correct,None,correct
+video_00021.mp4,question_10,Are there any moving cyan objects?,descriptive,no,No,correct,No.,correct
+video_00021.mp4,question_11,Which of the following is not responsible for the collision between the cylinder and the red object?,explanatory,option 3 : the presence of the metal sphere,the presence of the metal sphere,correct,the presence of the metal sphere,correct
+video_00021.mp4,question_12,Which of the following is not responsible for the collision between the blue object and the sphere?,explanatory,option 2 : the collision between the cylinder and the red cube,the presence of the green rubber cylinder,incorrect,the cylinder's colliding with the blue object,incorrect
+video_00021.mp4,question_13,"If the sphere is removed, which event will not happen?",counterfactual,option 1 : The blue cube and the red cube collide,The cylinder collides with the blue object,incorrect,The cylinder collides with the blue object,incorrect
+video_00021.mp4,question_14,"If the red cube is removed, which event will not happen?",counterfactual,option 1 : The cylinder collides with the sphere,The cylinder collides with the blue cube,incorrect,The cylinder collides with the sphere,incorrect
+video_00022.mp4,question_3,How many collisions happen after the cube enters the scene?,descriptive,0,0,correct,One,correct
+video_00022.mp4,question_4,How many collisions happen?,descriptive,2,0,incorrect,One,incorrect
+video_00022.mp4,question_5,Are there any metal cylinders that exit the scene?,descriptive,no,No,correct,No.,correct
+video_00022.mp4,question_6,What color is the moving rubber sphere when the video ends?,descriptive,green,gray,incorrect,Green,incorrect
+video_00022.mp4,question_7,What is the shape of the gray object that is moving when the video ends?,descriptive,cylinder,sphere,incorrect,Cylinder,incorrect
+video_00022.mp4,question_8,How many moving objects are there?,descriptive,4,1,incorrect,1,incorrect
+video_00022.mp4,question_9,How many stationary cubes are there when the video ends?,descriptive,0,0,correct,One,correct
+video_00022.mp4,question_10,Are there any stationary spheres when the video ends?,descriptive,yes,Yes,correct,Yes,correct
+video_00022.mp4,question_11,Which of the following is responsible for the green sphere's colliding with the gray cylinder?,explanatory,option 3 : the presence of the red metal object,the green sphere's colliding with the red object,incorrect,the cube's entering the scene,incorrect
+video_00022.mp4,question_12,What will happen next?,predictive,option 2 : The red object collides with the cube,The red object collides with the cube,correct,The red object collides with the cube,correct
+video_00022.mp4,question_13,"Without the metal sphere, which event will not happen?",counterfactual,option 1 : The gray cylinder collides with the gray rubber sphere,The green sphere and the gray cylinder collide,incorrect,The red object collides with the cube,incorrect
+video_00022.mp4,question_14,"If the red object is removed, what will not happen?",counterfactual,option 3 : The green sphere and the cube collide,The green sphere and the metal sphere collide,incorrect,The green sphere and the cube collide,incorrect
+video_00023.mp4,question_3,How many cylinders enter the scene?,descriptive,0,0,correct,Zero,correct
+video_00023.mp4,question_4,How many blue objects enter the scene after the cyan sphere enters the scene?,descriptive,1,1,correct,One,correct
+video_00023.mp4,question_5,Are there any cubes that enter the scene?,descriptive,no,No,correct,No,correct
+video_00023.mp4,question_6,What color is the rubber object that is stationary when the blue object enters the scene?,descriptive,red,Green,incorrect,Green,incorrect
+video_00023.mp4,question_7,What color is the stationary rubber cylinder when the video begins?,descriptive,red,green,incorrect,Green,incorrect
+video_00023.mp4,question_8,How many moving rubber objects are there when the video ends?,descriptive,2,2,correct,2,correct
+video_00023.mp4,question_9,How many moving objects are there?,descriptive,4,2,incorrect,2,incorrect
+video_00023.mp4,question_10,Are there any moving brown objects?,descriptive,no,No,correct,No.,correct
+video_00023.mp4,question_11,Which of the following is responsible for the cyan sphere's colliding with the green cylinder?,explanatory,,the presence of the blue metal sphere,incorrect,the presence of the blue metal sphere,incorrect
+video_00023.mp4,question_12,Which of the following is responsible for the green cylinder's colliding with the red object?,explanatory,option 4 : the presence of the rubber sphere,the collision between the cyan sphere and the green cylinder,incorrect,the collision between the cyan sphere and the green cylinder,incorrect
+video_00023.mp4,question_13,What will happen next?,predictive,option 2 : The green cylinder and the blue object collide,The green cylinder and the blue object collide,correct,The green cylinder and the blue object collide,correct
+video_00023.mp4,question_14,"Without the green cylinder, which of the following will not happen?",counterfactual,option 2 : The blue sphere collides with the cube,The blue sphere collides with the cube,correct,The cyan sphere and the blue sphere collide,correct
+video_00023.mp4,question_15,Which of the following will happen without the cube?,counterfactual,option 3 : The cyan sphere collides with the green object,The cyan sphere collides with the green object,correct,The cyan object and the blue object collide,correct
+video_00024.mp4,question_3,How many collisions happen?,descriptive,3,1,incorrect,1,incorrect
+video_00024.mp4,question_4,How many metal spheres enter the scene?,descriptive,2,3,incorrect,One,incorrect
+video_00024.mp4,question_5,Are there any blue objects that enter the scene after the red sphere enters the scene?,descriptive,yes,Yes,correct,Yes.,correct
+video_00024.mp4,question_6,What shape is the stationary object when the video ends?,descriptive,cylinder,Cylinder,correct,Cube,correct
+video_00024.mp4,question_7,What material is the sphere that is stationary when the red object enters the scene?,descriptive,metal,metal,correct,Blue,correct
+video_00024.mp4,question_8,How many moving metal objects are there?,descriptive,4,1,incorrect,1,incorrect
+video_00024.mp4,question_9,How many moving cubes are there?,descriptive,1,0,incorrect,Zero,incorrect
+video_00024.mp4,question_10,Are there any moving rubber objects when the video ends?,descriptive,no,No,correct,No.,correct
+video_00024.mp4,question_11,Which of the following is responsible for the cube's colliding with the cyan sphere?,explanatory,option 4 : the presence of the red metal sphere,the cyan object's colliding with the blue sphere,incorrect,the cyan object's colliding with the blue sphere,incorrect
+video_00024.mp4,question_12,Which of the following is responsible for the cyan object's colliding with the blue sphere?,explanatory,option 4 : the collision between the cube and the cyan sphere,the presence of the yellow metal object,incorrect,the presence of the yellow metal object,incorrect
+video_00024.mp4,question_13,"Without the blue sphere, which of the following will not happen?",counterfactual,option 4 : The cube collides with the cylinder,The cube collides with the cyan object,incorrect,The cube collides with the cyan object,incorrect
+video_00024.mp4,question_14,"Without the cylinder, which event will happen?",counterfactual,option 2 : The cube collides with the cyan sphere,The cube collides with the cyan sphere,correct,The cube collides with the cyan sphere,correct
+video_00025.mp4,question_3,How many collisions happen?,descriptive,2,0,incorrect,0,incorrect
+video_00025.mp4,question_4,How many cubes exit the scene?,descriptive,0,0,correct,Zero,correct
+video_00025.mp4,question_5,Are there collisions after the metal cylinder enters the scene?,descriptive,yes,No,incorrect,Yes,incorrect
+video_00025.mp4,question_6,What is the shape of the stationary rubber object?,descriptive,sphere,Cylinder,incorrect,Cube,incorrect
+video_00025.mp4,question_7,What color is the stationary rubber cylinder when the video ends?,descriptive,purple,Purple,correct,Purple,correct
+video_00025.mp4,question_8,How many metal objects are moving?,descriptive,1,1,correct,1,correct
+video_00025.mp4,question_9,How many stationary spheres are there when the gray cylinder enters the scene?,descriptive,2,1,incorrect,2,incorrect
+video_00025.mp4,question_10,Are there any stationary red objects when the video begins?,descriptive,yes,Yes,correct,Yes,correct
+video_00025.mp4,question_11,Which of the following is responsible for the purple object's colliding with the cube?,explanatory,option 3 : the presence of the green cylinder,the presence of the green cylinder,correct,the collision between the green cylinder and the purple object,correct
+video_00025.mp4,question_12,Which event will happen next?,predictive,option 2 : The purple cylinder and the gray object collide,The purple cylinder and the gray object collide,correct,The purple cylinder and the gray object collide,correct
+video_00025.mp4,question_13,"If the metal sphere is removed, which event will not happen?",counterfactual,option 2 : The metal cylinder collides with the blue object,The metal cylinder collides with the blue object,correct,The purple object collides with the cube,correct
+video_00025.mp4,question_14,"Without the cube, what will not happen?",counterfactual,option 4 : The purple cylinder and the metal sphere collide,The green object collides with the purple object,incorrect,The green object collides with the purple object,incorrect
+video_00026.mp4,question_3,How many objects enter the scene?,descriptive,3,4,incorrect,2,incorrect
+video_00026.mp4,question_4,How many rubber objects enter the scene after the purple cylinder enters the scene?,descriptive,1,1,correct,2,correct
+video_00026.mp4,question_5,Are there any rubber objects that enter the scene?,descriptive,yes,No,incorrect,No,incorrect
+video_00026.mp4,question_6,What is the shape of the stationary object when the video begins?,descriptive,cylinder,cylinder,correct,Cylinder,correct
+video_00026.mp4,question_7,What material is the cylinder that is stationary when the video begins?,descriptive,metal,metal,correct,Gray,correct
+video_00026.mp4,question_8,How many stationary objects are there when the video begins?,descriptive,1,2,incorrect,Two,incorrect
+video_00026.mp4,question_9,How many moving cubes are there when the video ends?,descriptive,0,0,correct,One,correct
+video_00026.mp4,question_10,Are there any moving purple objects when the video ends?,descriptive,yes,No,incorrect,No,incorrect
+video_00026.mp4,question_11,Which of the following is responsible for the purple cylinder's colliding with the sphere?,explanatory,option 3 : the purple object's colliding with the gray object,the purple object's colliding with the gray object,correct,the purple object's colliding with the gray object,correct
+video_00026.mp4,question_12,Which of the following is responsible for the collision between the purple cylinder and the gray object?,explanatory,,the purple object's colliding with the sphere,incorrect,the purple object's colliding with the sphere,incorrect
+video_00026.mp4,question_13,Which event will happen next?,predictive,option 2 : The gray cylinder collides with the rubber cylinder,The gray cylinder collides with the sphere,incorrect,The gray cylinder collides with the sphere,incorrect
+video_00026.mp4,question_14,"If the blue object is removed, what will not happen?",counterfactual,option 1 : The gray object and the sphere collide,The purple object collides with the sphere,incorrect,The purple object collides with the sphere,incorrect
+video_00026.mp4,question_15,"Without the sphere, which event will not happen?",counterfactual,option 1 : The purple cylinder collides with the blue cylinder,The purple cylinder collides with the blue cylinder,correct,The purple cylinder collides with the blue cylinder,correct
+video_00027.mp4,question_3,How many objects enter the scene?,descriptive,2,2,correct,2,correct
+video_00027.mp4,question_4,How many collisions happen after the green cylinder enters the scene?,descriptive,2,3,incorrect,3,incorrect
+video_00027.mp4,question_5,Are there any brown spheres that enter the scene?,descriptive,no,Yes,incorrect,Yes,incorrect
+video_00027.mp4,question_6,What is the material of the stationary cylinder when the video ends?,descriptive,rubber,Purple,incorrect,Purple,incorrect
+video_00027.mp4,question_7,What is the color of the rubber cylinder that is stationary when the green object enters the scene?,descriptive,cyan,Cyan,correct,Blue,correct
+video_00027.mp4,question_8,How many brown objects are moving when the green cylinder enters the scene?,descriptive,1,1,correct,One,correct
+video_00027.mp4,question_9,How many metal objects are moving?,descriptive,3,2,incorrect,2,incorrect
+video_00027.mp4,question_10,Are there any moving cubes when the video ends?,descriptive,no,No,correct,No.,correct
+video_00027.mp4,question_11,Which of the following is responsible for the sphere's colliding with the blue cube?,explanatory,option 4 : the metal cylinder's colliding with the sphere,the presence of the cyan rubber object,incorrect,the presence of the cyan rubber object,incorrect
+video_00027.mp4,question_12,What will happen next?,predictive,option 1 : The sphere collides with the green cylinder,The sphere collides with the green cylinder,correct,The sphere collides with the green cylinder,correct
+video_00027.mp4,question_13,"Without the green object, which of the following will happen?",counterfactual,option 3 : The sphere and the blue cube collide,The sphere and the blue cube collide,correct,The cyan cylinder and the brown cube collide,correct
+video_00027.mp4,question_14,"Without the cyan object, which event will not happen?",counterfactual,option 4 : The blue object collides with the green object,The sphere and the green object collide,incorrect,The sphere and the blue object collide,incorrect
+video_00028.mp4,question_3,How many metal objects enter the scene after the rubber sphere enters the scene?,descriptive,2,1,incorrect,Two,incorrect
+video_00028.mp4,question_4,How many collisions happen?,descriptive,2,2,correct,0,correct
+video_00028.mp4,question_5,Are there any brown spheres that enter the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00028.mp4,question_6,What is the material of the cylinder that is stationary when the rubber sphere enters the scene?,descriptive,metal,Metal,correct,Blue,correct
+video_00028.mp4,question_7,What is the shape of the metal object that is stationary when the video begins?,descriptive,cylinder,cylinder,correct,Cylinder,correct
+video_00028.mp4,question_8,How many moving brown objects are there when the video ends?,descriptive,3,1,incorrect,2,incorrect
+video_00028.mp4,question_9,How many moving brown objects are there?,descriptive,3,1,incorrect,2,incorrect
+video_00028.mp4,question_10,Are there any stationary objects when the brown cylinder enters the scene?,descriptive,no,Yes,incorrect,Yes,incorrect
+video_00028.mp4,question_11,Which of the following is not responsible for the collision between the rubber sphere and the cyan cylinder?,explanatory,option 3 : the brown cylinder's entrance,the presence of the brown metal cylinder,incorrect,the presence of the brown metal cylinder,incorrect
+video_00028.mp4,question_12,Which of the following is responsible for the collision between the cyan cylinder and the brown cylinder?,explanatory,option 4 : the rubber object's entering the scene,the rubber object's colliding with the cyan object,incorrect,the metal sphere's entering the scene,incorrect
+video_00028.mp4,question_13,Which event will happen next?,predictive,option 2 : The rubber object and the metal sphere collide,The cyan cylinder collides with the brown cylinder,incorrect,The cyan cylinder collides with the brown cylinder,incorrect
+video_00028.mp4,question_14,"Without the metal sphere, which of the following will not happen?",counterfactual,option 3 : The rubber object and the brown cylinder collide,The rubber object and the brown cylinder collide,correct,The rubber object and the brown cylinder collide,correct
+video_00028.mp4,question_15,Which of the following will happen without the cyan object?,counterfactual,option 2 : The metal sphere collides with the brown cylinder,The rubber object and the metal sphere collide,incorrect,The rubber object and the metal sphere collide,incorrect
+video_00029.mp4,question_3,How many rubber objects enter the scene after the metal object enters the scene?,descriptive,0,0,correct,1,correct
+video_00029.mp4,question_4,How many objects enter the scene?,descriptive,2,3,incorrect,1,incorrect
+video_00029.mp4,question_5,Are there any red cubes that enter the scene before the metal sphere enters the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00029.mp4,question_6,What color is the moving cube when the metal object enters the scene?,descriptive,red,Red,correct,Red,correct
+video_00029.mp4,question_7,What is the color of the sphere that is stationary when the red cube enters the scene?,descriptive,brown,brown,correct,Brown,correct
+video_00029.mp4,question_8,How many brown objects are moving?,descriptive,2,1,incorrect,One,incorrect
+video_00029.mp4,question_9,How many green objects are moving when the video ends?,descriptive,0,0,correct,Zero,correct
+video_00029.mp4,question_10,Are there any moving cylinders when the red object enters the scene?,descriptive,no,No,correct,No.,correct
+video_00029.mp4,question_11,Which of the following is responsible for the collision between the rubber sphere and the yellow cube?,explanatory,option 3 : the red cube's entering the scene,the presence of the red rubber cube,incorrect,the presence of the red rubber cube,incorrect
+video_00029.mp4,question_12,Which of the following is not responsible for the collision between the rubber sphere and the metal object?,explanatory,option 3 : the collision between the rubber sphere and the yellow object,the collision between the rubber sphere and the yellow object,correct,the collision between the rubber sphere and the yellow object,correct
+video_00029.mp4,question_13,What will not happen without the metal sphere?,counterfactual,option 2 : The rubber sphere collides with the yellow cube,The red cube and the rubber sphere collide,incorrect,The red cube and the rubber sphere collide,incorrect
+video_00029.mp4,question_14,Which of the following will not happen without the yellow object?,counterfactual,option 2 : The red object collides with the metal object,The red object collides with the metal object,correct,The rubber sphere and the metal sphere collide,correct
+video_00030.mp4,question_3,How many green objects enter the scene?,descriptive,1,1,correct,Zero,correct
+video_00030.mp4,question_4,How many collisions happen before the sphere enters the scene?,descriptive,2,1,incorrect,2,incorrect
+video_00030.mp4,question_5,Are there any cyan objects that enter the scene before the metal cube enters the scene?,descriptive,no,Yes,incorrect,No,incorrect
+video_00030.mp4,question_6,What color is the cube that is stationary when the video ends?,descriptive,green,Brown,incorrect,Red,incorrect
+video_00030.mp4,question_7,What shape is the rubber object that is moving when the video begins?,descriptive,cylinder,Cube,incorrect,Cube,incorrect
+video_00030.mp4,question_8,How many moving brown objects are there when the green cube enters the scene?,descriptive,1,0,incorrect,Zero,incorrect
+video_00030.mp4,question_9,How many stationary objects are there when the video ends?,descriptive,2,3,incorrect,4,incorrect
+video_00030.mp4,question_10,Are there any stationary spheres?,descriptive,no,No,correct,Yes,correct
+video_00030.mp4,question_11,Which of the following is responsible for the green cube's colliding with the cylinder?,explanatory,,the collision between the green cube and the red object,incorrect,the collision between the green cube and the red object,incorrect
+video_00030.mp4,question_12,Which of the following is responsible for the collision between the metal cube and the red cube?,explanatory,option 4 : the presence of the brown cylinder,the sphere's entrance,incorrect,the presence of the cyan sphere,incorrect
+video_00030.mp4,question_13,Which event will happen next?,predictive,option 2 : The green object collides with the sphere,The green object collides with the sphere,correct,The green object collides with the sphere,correct
+video_00030.mp4,question_14,Which event will not happen if the sphere is removed?,counterfactual,option 1 : The cylinder collides with the rubber cube,The green object and the red cube collide,incorrect,The green object and the red cube collide,incorrect
+video_00030.mp4,question_15,"Without the metal cube, which of the following will not happen?",counterfactual,option 4 : The cylinder and the sphere collide,The cylinder collides with the rubber cube,incorrect,The cylinder and the sphere collide,incorrect
+video_00031.mp4,question_3,How many metal objects enter the scene?,descriptive,0,0,correct,Zero.,correct
+video_00031.mp4,question_4,How many objects enter the scene?,descriptive,0,0,correct,0,correct
+video_00031.mp4,question_5,Are there any objects that enter the scene?,descriptive,no,0,correct,No.,correct
+video_00031.mp4,question_6,What is the material of the cylinder that is moving when the video begins?,descriptive,metal,metal,correct,Gold,correct
+video_00031.mp4,question_7,What material is the cube that is moving when the video ends?,descriptive,rubber,metal,incorrect,Copper,incorrect
+video_00031.mp4,question_8,How many moving metal objects are there when the video begins?,descriptive,2,0,incorrect,Two,incorrect
+video_00031.mp4,question_9,How many moving gray objects are there?,descriptive,1,0,incorrect,Zero,incorrect
+video_00031.mp4,question_10,Are there any moving brown objects?,descriptive,yes,no,incorrect,No.,incorrect
+video_00031.mp4,question_11,Which of the following is not responsible for the red object's colliding with the blue object?,explanatory,option 4 : the blue object's colliding with the rubber cube,the presence of the purple metal cube,incorrect,the metal cylinder's colliding with the brown object,incorrect
+video_00031.mp4,question_12,Which of the following is not responsible for the collision between the red cylinder and the brown cylinder?,explanatory,option 3 : the presence of the purple object,the presence of the blue object,incorrect,the collision between the blue object and the gray cube,incorrect
+video_00031.mp4,question_13,Which event will not happen if the brown cylinder is removed?,counterfactual,option 3 : The red cylinder and the gray object collide,The red object collides with the blue object,incorrect,The red cylinder collides with the purple object,incorrect
+video_00031.mp4,question_14,"If the metal cylinder is removed, which of the following will happen?",counterfactual,option 4 : The blue object collides with the brown object,The blue object and the rubber cube collide,incorrect,The blue object collides with the brown object,incorrect
+video_00032.mp4,question_3,How many cubes enter the scene after the cyan cylinder enters the scene?,descriptive,0,0,correct,One,correct
+video_00032.mp4,question_4,How many cylinders exit the scene?,descriptive,1,0,incorrect,One,incorrect
+video_00032.mp4,question_5,Are there any metal objects that enter the scene?,descriptive,no,Yes,incorrect,Yes.,incorrect
+video_00032.mp4,question_6,What is the color of the moving rubber cylinder when the cyan cylinder exits the scene?,descriptive,green,Green,correct,Green,correct
+video_00032.mp4,question_7,What is the color of the stationary rubber object?,descriptive,red,red,correct,Red,correct
+video_00032.mp4,question_8,How many moving objects are there when the video ends?,descriptive,1,1,correct,Two,correct
+video_00032.mp4,question_9,How many moving metal objects are there when the video ends?,descriptive,0,0,correct,One,correct
+video_00032.mp4,question_10,Are there any stationary rubber objects?,descriptive,yes,Yes,correct,Yes.,correct
+video_00032.mp4,question_11,Which of the following is responsible for the collision between the cyan cylinder and the cube?,explanatory,,the presence of the green rubber object,incorrect,the collision between the cube and the green object,incorrect
+video_00032.mp4,question_12,Which of the following is not responsible for the collision between the cube and the green object?,explanatory,option 4 : the presence of the red sphere,the presence of the red sphere,correct,the presence of the red sphere,correct
+video_00032.mp4,question_13,What will happen next?,predictive,option 2 : The cube collides with the cyan sphere,The cube collides with the cyan sphere,correct,The cube collides with the cyan sphere,correct
+video_00032.mp4,question_14,"If the green object is removed, which of the following will not happen?",counterfactual,option 4 : The cyan cylinder collides with the red sphere,The cyan sphere collides with the red sphere,incorrect,The cyan cylinder collides with the red sphere,incorrect
+video_00032.mp4,question_15,"Without the cyan cylinder, which event will not happen?",counterfactual,option 4 : The cube and the red object collide,The cube and the red object collide,correct,The green cylinder collides with the cyan sphere,correct
+video_00033.mp4,question_3,How many brown spheres enter the scene?,descriptive,0,1,incorrect,Zero,incorrect
+video_00033.mp4,question_4,How many metal spheres enter the scene after the cylinder enters the scene?,descriptive,0,0,correct,1,correct
+video_00033.mp4,question_5,Are there any red cylinders that enter the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00033.mp4,question_6,What is the shape of the stationary rubber object when the video ends?,descriptive,sphere,sphere,correct,Sphere,correct
+video_00033.mp4,question_7,What material is the sphere that is stationary?,descriptive,rubber,metal,incorrect,Gray,incorrect
+video_00033.mp4,question_8,How many stationary metal objects are there when the gray sphere enters the scene?,descriptive,3,3,correct,5,correct
+video_00033.mp4,question_9,How many green objects are stationary when the gray sphere enters the scene?,descriptive,2,1,incorrect,2,incorrect
+video_00033.mp4,question_10,Are there any moving green objects?,descriptive,yes,Yes,correct,Yes,correct
+video_00033.mp4,question_11,Which of the following is responsible for the metal sphere's colliding with the green cube?,explanatory,option 3 : the presence of the red cylinder,the metal sphere's colliding with the gray sphere,incorrect,the cylinder's entering the scene,incorrect
+video_00033.mp4,question_12,Which of the following is not responsible for the collision between the cylinder and the green sphere?,explanatory,option 3 : the metal sphere's colliding with the green cube,the presence of the brown rubber object,incorrect,the metal sphere's colliding with the gray sphere,incorrect
+video_00033.mp4,question_13,"Without the brown object, which event will not happen?",counterfactual,option 3 : The cylinder and the purple object collide,The cylinder and the purple object collide,correct,The cylinder and the purple object collide,correct
+video_00033.mp4,question_14,Which event will not happen if the gray object is removed?,counterfactual,option 3 : The green cube and the brown sphere collide,The green sphere and the green cube collide,incorrect,The cylinder collides with the metal sphere,incorrect
+video_00034.mp4,question_3,How many objects exit the scene?,descriptive,0,0,correct,None.,correct
+video_00034.mp4,question_4,How many collisions happen before the red cylinder enters the scene?,descriptive,0,0,correct,3,correct
+video_00034.mp4,question_5,Are there collisions after the red object enters the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00034.mp4,question_6,What color is the object that is moving when the video begins?,descriptive,gray,gray,correct,Silver,correct
+video_00034.mp4,question_7,What is the color of the stationary cylinder when the video begins?,descriptive,brown,Red,incorrect,Red,incorrect
+video_00034.mp4,question_8,How many objects are stationary when the video begins?,descriptive,2,4,incorrect,4,incorrect
+video_00034.mp4,question_9,How many moving gray objects are there?,descriptive,1,1,correct,One,correct
+video_00034.mp4,question_10,Are there any moving green objects when the red cylinder enters the scene?,descriptive,no,No,correct,No,correct
+video_00034.mp4,question_11,Which of the following is responsible for the sphere's colliding with the red cylinder?,explanatory,,the collision between the sphere and the cube,incorrect,the presence of the metal cube,incorrect
+video_00034.mp4,question_12,Which of the following is responsible for the collision between the sphere and the cube?,explanatory,option 4 : the presence of the red metal object,the presence of the red metal object,correct,the collision between the sphere and the red object,correct
+video_00034.mp4,question_13,Which event will happen without the sphere?,counterfactual,option 4 : The red object and the cube collide,The red object and the brown object collide,incorrect,The red object and the brown object collide,incorrect
+video_00034.mp4,question_14,"If the brown object is removed, which of the following will not happen?",counterfactual,option 3 : The red cylinder and the cube collide,The sphere and the red object collide,incorrect,The red cylinder and the cube collide,incorrect
+video_00035.mp4,question_3,How many gray objects enter the scene?,descriptive,1,1,correct,1,correct
+video_00035.mp4,question_4,How many rubber objects exit the scene after the sphere enters the scene?,descriptive,0,0,correct,0,correct
+video_00035.mp4,question_5,Are there any objects that enter the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00035.mp4,question_6,What color is the metal object that is moving?,descriptive,yellow,Gray,incorrect,Gray,incorrect
+video_00035.mp4,question_7,What is the shape of the rubber object that is moving when the video ends?,descriptive,sphere,sphere,correct,Sphere,correct
+video_00035.mp4,question_8,How many moving objects are there when the video ends?,descriptive,2,0,incorrect,1,incorrect
+video_00035.mp4,question_9,How many stationary rubber objects are there when the sphere enters the scene?,descriptive,0,0,correct,6,correct
+video_00035.mp4,question_10,Are there any moving blue objects when the sphere enters the scene?,descriptive,yes,No,incorrect,No,incorrect
+video_00035.mp4,question_11,Which of the following is not responsible for the yellow cylinder's colliding with the rubber cylinder?,explanatory,option 2 : the presence of the brown metal object,the presence of the blue object,incorrect,the sphere's entering the scene,incorrect
+video_00035.mp4,question_12,What will happen next?,predictive,option 2 : The blue object and the sphere collide,The sphere and the metal cube collide,incorrect,The sphere and the metal cube collide,incorrect
+video_00035.mp4,question_13,"If the green object is removed, what will not happen?",counterfactual,option 1 : The blue object collides with the brown metal object,The blue object and the sphere collide,incorrect,The yellow object collides with the rubber cube,incorrect
+video_00035.mp4,question_14,What will not happen if the sphere is removed?,counterfactual,option 3 : The rubber cylinder and the metal cube collide,The yellow cylinder and the green cube collide,incorrect,The yellow cylinder collides with the rubber cylinder,incorrect
+video_00036.mp4,question_3,How many purple cylinders exit the scene?,descriptive,1,1,correct,One,correct
+video_00036.mp4,question_4,How many objects enter the scene before the cylinder exits the scene?,descriptive,2,3,incorrect,Two,incorrect
+video_00036.mp4,question_5,Are there any rubber objects that exit the scene after the cylinder enters the scene?,descriptive,yes,No,incorrect,No.,incorrect
+video_00036.mp4,question_6,What shape is the object that is stationary when the video begins?,descriptive,sphere,cube,incorrect,Cube,incorrect
+video_00036.mp4,question_7,What color is the moving rubber object when the video begins?,descriptive,yellow,yellow,correct,Yellow,correct
+video_00036.mp4,question_8,How many moving rubber objects are there?,descriptive,4,3,incorrect,2,incorrect
+video_00036.mp4,question_9,How many metal objects are moving when the video ends?,descriptive,0,0,correct,Zero,correct
+video_00036.mp4,question_10,Are there any stationary yellow objects when the brown sphere enters the scene?,descriptive,yes,Yes,correct,Yes.,correct
+video_00036.mp4,question_11,Which of the following is responsible for the yellow sphere's colliding with the cylinder?,explanatory,option 4 : the collision between the brown sphere and the yellow sphere,the presence of the yellow rubber cube,incorrect,the presence of the yellow rubber cube,incorrect
+video_00036.mp4,question_12,Which of the following is responsible for the brown object's colliding with the yellow sphere?,explanatory,,the presence of the purple rubber cylinder,incorrect,the presence of the purple rubber cylinder,incorrect
+video_00036.mp4,question_13,What will happen next?,predictive,option 1 : The brown sphere collides with the cube,The brown sphere collides with the yellow sphere,incorrect,The brown sphere collides with the yellow sphere.,incorrect
+video_00036.mp4,question_14,"If the cylinder is removed, which event will not happen?",counterfactual,option 3 : The yellow sphere and the cube collide,The yellow sphere and the cube collide,correct,The yellow sphere and the cube collide,correct
+video_00037.mp4,question_3,How many gray spheres enter the scene before the purple sphere exits the scene?,descriptive,0,1,incorrect,Zero,incorrect
+video_00037.mp4,question_4,How many objects enter the scene before the purple object exits the scene?,descriptive,2,0,incorrect,One,incorrect
+video_00037.mp4,question_5,Are there any cubes that enter the scene before the purple object exits the scene?,descriptive,yes,No,incorrect,Yes,incorrect
+video_00037.mp4,question_6,What color is the rubber object that is moving when the video ends?,descriptive,blue,blue,correct,Blue,correct
+video_00037.mp4,question_7,What material is the moving blue object when the purple object enters the scene?,descriptive,metal,metal,correct,Metal,correct
+video_00037.mp4,question_8,How many moving objects are there when the video ends?,descriptive,3,0,incorrect,Two,incorrect
+video_00037.mp4,question_9,How many cylinders are moving when the video ends?,descriptive,1,0,incorrect,One,incorrect
+video_00037.mp4,question_10,Are there any stationary green objects?,descriptive,no,No,correct,No.,correct
+video_00037.mp4,question_11,Which of the following is responsible for the purple sphere's exiting the scene?,explanatory,option 3 : the cylinder's colliding with the purple sphere,the cylinder's colliding with the purple sphere,correct,the cylinder's colliding with the purple sphere,correct
+video_00037.mp4,question_12,Which of the following is responsible for the cylinder's colliding with the purple sphere?,explanatory,,the collision between the cylinder and the red object,incorrect,the cube's entrance,incorrect
+video_00037.mp4,question_13,"If the purple object is removed, what will happen?",counterfactual,option 1 : The red sphere and the cube collide,The cylinder and the cube collide,incorrect,The cylinder and the cube collide,incorrect
+video_00037.mp4,question_14,Which of the following will happen without the cylinder?,counterfactual,option 4 : The purple sphere and the red object collide,The red object and the cube collide,incorrect,The red object and the cube collide,incorrect
+video_00038.mp4,question_3,How many collisions happen after the red object enters the scene?,descriptive,3,2,incorrect,2,incorrect
+video_00038.mp4,question_4,How many collisions happen?,descriptive,3,1,incorrect,2,incorrect
+video_00038.mp4,question_5,Are there any rubber objects that enter the scene?,descriptive,no,No,correct,No,correct
+video_00038.mp4,question_6,What shape is the stationary gray object?,descriptive,cube,cube,correct,Cube,correct
+video_00038.mp4,question_7,What color is the rubber cube that is moving?,descriptive,cyan,blue,incorrect,blue,incorrect
+video_00038.mp4,question_8,How many objects are stationary when the video ends?,descriptive,2,5,incorrect,7,incorrect
+video_00038.mp4,question_9,How many objects are stationary when the red object enters the scene?,descriptive,4,5,incorrect,6,incorrect
+video_00038.mp4,question_10,Are there any moving blue objects?,descriptive,no,Yes,incorrect,No.,incorrect
+video_00038.mp4,question_11,Which of the following is not responsible for the red sphere's colliding with the metal cube?,explanatory,option 4 : the red sphere's colliding with the cyan cube,the presence of the yellow metal object,incorrect,the red sphere's colliding with the cylinder,incorrect
+video_00038.mp4,question_12,Which of the following is not responsible for the collision between the red sphere and the cylinder?,explanatory,option 2 : the red object's colliding with the cyan cube,the presence of the yellow metal object,incorrect,the presence of the yellow metal object,incorrect
+video_00038.mp4,question_13,"If the yellow sphere is removed, which of the following will happen?",counterfactual,option 3 : The red object and the cyan cube collide,The red object and the cyan cube collide,correct,The red sphere collides with the metal cube,correct
+video_00038.mp4,question_14,Which of the following will happen without the cyan cube?,counterfactual,option 3 : The red object collides with the metal cube,The red object collides with the metal cube,correct,The red object collides with the metal cube,correct
+video_00039.mp4,question_3,How many rubber cylinders exit the scene after the brown object enters the scene?,descriptive,1,0,incorrect,Zero,incorrect
+video_00039.mp4,question_4,How many collisions happen after the brown sphere enters the scene?,descriptive,0,2,incorrect,One,incorrect
+video_00039.mp4,question_5,Are there any purple objects that enter the scene after the brown object enters the scene?,descriptive,no,No,correct,No,correct
+video_00039.mp4,question_6,What color is the moving rubber object when the gray object exits the scene?,descriptive,cyan,gold,incorrect,Gold,incorrect
+video_00039.mp4,question_7,What is the color of the stationary sphere when the brown object enters the scene?,descriptive,blue,blue,correct,Purple,correct
+video_00039.mp4,question_8,How many moving objects are there when the video ends?,descriptive,3,1,incorrect,2,incorrect
+video_00039.mp4,question_9,How many moving cyan objects are there when the video begins?,descriptive,1,0,incorrect,Zero,incorrect
+video_00039.mp4,question_10,Are there any moving cyan objects when the video begins?,descriptive,yes,No,incorrect,No,incorrect
+video_00039.mp4,question_11,Which of the following is responsible for the gray object's exiting the scene?,explanatory,option 4 : the collision between the purple object and the gray object,the presence of the brown object,incorrect,the presence of the brown object,incorrect
+video_00039.mp4,question_12,Which of the following is responsible for the collision between the purple sphere and the gray object?,explanatory,option 3 : the presence of the cyan object,the brown object's entering the scene,incorrect,the brown object's entering the scene,incorrect
+video_00039.mp4,question_13,What will happen next?,predictive,option 1 : The cyan cylinder and the brown object collide,The cyan cylinder and the brown object collide,correct,The cyan cylinder and the brown object collide,correct
+video_00039.mp4,question_14,Which event will not happen without the blue cylinder?,counterfactual,option 4 : The brown object collides with the gray object,The cyan cylinder collides with the brown sphere,incorrect,The cyan cylinder collides with the brown sphere,incorrect
+video_00039.mp4,question_15,Which event will not happen if the brown object is removed?,counterfactual,option 2 : The gray cylinder collides with the blue cylinder,The purple object and the gray object collide,incorrect,The purple object and the gray object collide,incorrect
+video_00040.mp4,question_3,How many brown cubes enter the scene?,descriptive,0,0,correct,Zero,correct
+video_00040.mp4,question_4,How many rubber cylinders enter the scene?,descriptive,0,0,correct,Zero,correct
+video_00040.mp4,question_5,Are there collisions before the sphere enters the scene?,descriptive,no,no,correct,No,correct
+video_00040.mp4,question_6,What is the shape of the stationary object?,descriptive,cylinder,cylinder,correct,Cube,correct
+video_00040.mp4,question_7,What color is the stationary object?,descriptive,red,Red,correct,Red,correct
+video_00040.mp4,question_8,How many stationary red objects are there when the sphere enters the scene?,descriptive,2,1,incorrect,2,incorrect
+video_00040.mp4,question_9,How many moving red objects are there?,descriptive,1,1,correct,One,correct
+video_00040.mp4,question_10,Are there any moving gray objects when the video ends?,descriptive,no,No,correct,No.,correct
+video_00040.mp4,question_11,Which of the following is responsible for the collision between the sphere and the blue object?,explanatory,option 3 : the presence of the metal cube,the presence of the metal cube,correct,the collision between the sphere and the metal cube,correct
+video_00040.mp4,question_12,Which of the following is responsible for the metal cube's colliding with the brown cube?,explanatory,option 4 : the sphere's colliding with the metal cube,the sphere's colliding with the metal cube,correct,the presence of the rubber sphere,correct
+video_00040.mp4,question_13,What will happen next?,predictive,option 2 : The metal object and the blue cube collide,The metal object and the blue cube collide,correct,The metal cube and the brown cube collide.,correct
+video_00040.mp4,question_14,"If the blue object is removed, what will happen?",counterfactual,option 4 : The sphere and the metal cube collide,The sphere and the metal cube collide,correct,The sphere collides with the metal cube,correct
+video_00040.mp4,question_15,"If the cylinder is removed, which of the following will happen?",counterfactual,option 4 : The sphere collides with the blue object,The sphere collides with the blue object,correct,The sphere collides with the blue object,correct
+video_00041.mp4,question_3,How many objects enter the scene before the purple object exits the scene?,descriptive,3,2,incorrect,1,incorrect
+video_00041.mp4,question_4,How many rubber objects enter the scene?,descriptive,3,1,incorrect,1,incorrect
+video_00041.mp4,question_5,Are there any purple objects that exit the scene after the sphere enters the scene?,descriptive,yes,Yes,correct,No,correct
+video_00041.mp4,question_6,What color is the stationary rubber cube when the video begins?,descriptive,blue,blue,correct,Blue,correct
+video_00041.mp4,question_7,What is the shape of the red object that is moving when the purple cylinder enters the scene?,descriptive,cube,Cube,correct,Cylinder,correct
+video_00041.mp4,question_8,How many moving green objects are there when the purple object enters the scene?,descriptive,0,0,correct,Zero,correct
+video_00041.mp4,question_9,How many moving cylinders are there when the video ends?,descriptive,1,2,incorrect,Two,incorrect
+video_00041.mp4,question_10,Are there any stationary gray objects when the sphere enters the scene?,descriptive,no,No,correct,No,correct
+video_00041.mp4,question_11,Which of the following is not responsible for the collision between the red cylinder and the purple object?,explanatory,option 2 : the presence of the red rubber cube,the presence of the red rubber cube,correct,the presence of the red rubber cube,correct
+video_00041.mp4,question_12,Which of the following is responsible for the collision between the sphere and the red cylinder?,explanatory,,the red cube's entering the scene,incorrect,the presence of the red cube,incorrect
+video_00041.mp4,question_13,What will happen next?,predictive,option 2 : The sphere collides with the red cube,The sphere collides with the red cube,correct,The sphere collides with the red cube,correct
+video_00041.mp4,question_14,Which event will not happen without the blue object?,counterfactual,option 2 : The red cylinder collides with the red cube,The sphere collides with the red cube,incorrect,The sphere and the red cylinder collide,incorrect
+video_00041.mp4,question_15,What will not happen if the purple cylinder is removed?,counterfactual,option 4 : The red cylinder collides with the blue object,The red cube and the blue cube collide,incorrect,The red cube and the blue cube collide,incorrect
+video_00042.mp4,question_3,How many brown objects enter the scene before the blue cylinder enters the scene?,descriptive,1,1,correct,1,correct
+video_00042.mp4,question_4,How many collisions happen?,descriptive,3,2,incorrect,1,incorrect
+video_00042.mp4,question_5,Are there any rubber cylinders that enter the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00042.mp4,question_6,What is the color of the moving sphere when the blue object enters the scene?,descriptive,brown,gold,incorrect,Gold,incorrect
+video_00042.mp4,question_7,What material is the moving brown object when the video begins?,descriptive,rubber,ball,correct,Cylinder,incorrect
+video_00042.mp4,question_8,How many stationary objects are there when the video begins?,descriptive,3,6,incorrect,5,incorrect
+video_00042.mp4,question_9,How many moving cylinders are there when the video begins?,descriptive,0,0,correct,2,correct
+video_00042.mp4,question_10,Are there any stationary cylinders when the video begins?,descriptive,yes,Yes,correct,Yes.,correct
+video_00042.mp4,question_11,Which of the following is responsible for the collision between the brown cylinder and the blue cylinder?,explanatory,option 4 : the presence of the rubber sphere,the collision between the brown cylinder and the yellow sphere,incorrect,the collision between the brown cylinder and the yellow sphere,incorrect
+video_00042.mp4,question_12,Which of the following is responsible for the rubber sphere's colliding with the brown cylinder?,explanatory,,the brown cylinder's colliding with the yellow object,incorrect,the brown cylinder's colliding with the yellow object,incorrect
+video_00042.mp4,question_13,"Without the cube, what will happen?",counterfactual,option 4 : The brown cylinder and the yellow sphere collide,The brown cylinder and the yellow sphere collide,correct,The brown cylinder and the yellow sphere collide,correct
+video_00042.mp4,question_14,Which event will not happen without the brown sphere?,counterfactual,option 4 : The brown cylinder collides with the blue cylinder,The brown cylinder and the cube collide,incorrect,The brown cylinder collides with the blue cylinder,incorrect
+video_00043.mp4,question_3,How many blue objects enter the scene?,descriptive,0,2,incorrect,Zero,incorrect
+video_00043.mp4,question_4,How many metal objects enter the scene before the purple sphere enters the scene?,descriptive,2,1,incorrect,Two,incorrect
+video_00043.mp4,question_5,Are there any purple spheres that enter the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00043.mp4,question_6,What color is the metal cube that is moving when the cylinder enters the scene?,descriptive,cyan,cyan,correct,Green,correct
+video_00043.mp4,question_7,What color is the cube that is moving when the cylinder enters the scene?,descriptive,cyan,Blue,incorrect,Green,incorrect
+video_00043.mp4,question_8,How many stationary blue objects are there when the video begins?,descriptive,2,1,incorrect,Two,incorrect
+video_00043.mp4,question_9,How many moving objects are there when the video begins?,descriptive,0,2,incorrect,2,incorrect
+video_00043.mp4,question_10,Are there any stationary blue objects when the purple sphere enters the scene?,descriptive,yes,Yes,correct,Yes.,correct
+video_00043.mp4,question_11,Which of the following is responsible for the cyan object's colliding with the blue cube?,explanatory,,the presence of the gray cylinder,incorrect,the presence of the gray cylinder,incorrect
+video_00043.mp4,question_12,Which of the following is not responsible for the cyan object's colliding with the cylinder?,explanatory,option 1 : the presence of the blue rubber sphere,the presence of the blue rubber sphere,correct,the presence of the blue rubber sphere,correct
+video_00043.mp4,question_13,Which event will happen next?,predictive,option 1 : The blue cube and the purple object collide,The blue cube and the purple object collide,correct,The blue cube and the purple object collide,correct
+video_00043.mp4,question_14,Which event will not happen without the cyan cube?,counterfactual,option 4 : The cylinder collides with the purple sphere,The blue cube collides with the cylinder,incorrect,The blue cube collides with the cylinder,incorrect
+video_00043.mp4,question_15,Which of the following will not happen without the blue sphere?,counterfactual,option 4 : The blue cube collides with the cylinder,The blue cube collides with the purple object,incorrect,The blue cube collides with the purple object,incorrect
+video_00044.mp4,question_3,How many objects enter the scene?,descriptive,1,1,correct,1,correct
+video_00044.mp4,question_4,How many rubber objects enter the scene?,descriptive,1,1,correct,1,correct
+video_00044.mp4,question_5,Are there any metal objects that enter the scene?,descriptive,no,No,correct,No.,correct
+video_00044.mp4,question_6,What is the material of the moving cylinder when the video begins?,descriptive,metal,Rubber,incorrect,Red,incorrect
+video_00044.mp4,question_7,What is the color of the stationary metal cylinder when the video begins?,descriptive,green,green,correct,Red,correct
+video_00044.mp4,question_8,How many moving cylinders are there when the video ends?,descriptive,3,0,incorrect,Zero,incorrect
+video_00044.mp4,question_9,How many moving objects are there when the video ends?,descriptive,4,0,incorrect,1,incorrect
+video_00044.mp4,question_10,Are there any moving metal objects when the purple object enters the scene?,descriptive,yes,Yes,correct,No.,correct
+video_00044.mp4,question_11,Which of the following is not responsible for the red metal cylinder's colliding with the rubber cylinder?,explanatory,option 3 : the purple cube's entering the scene,the presence of the green cylinder,incorrect,the presence of the green cylinder,incorrect
+video_00044.mp4,question_12,Which of the following is responsible for the green cylinder's colliding with the rubber cylinder?,explanatory,option 3 : the collision between the red metal object and the green object,the collision between the red metal object and the rubber cylinder,incorrect,the presence of the red metal object,incorrect
+video_00044.mp4,question_13,Which event will happen next?,predictive,option 1 : The red metal object and the purple object collide,The green cylinder and the purple cube collide,incorrect,The red metal object and the purple object collide,incorrect
+video_00044.mp4,question_14,Which of the following will not happen without the cyan object?,counterfactual,option 1 : The green object and the purple object collide,The green object and the purple object collide,correct,The green object and the purple object collide,correct
+video_00044.mp4,question_15,"Without the rubber cylinder, which of the following will not happen?",counterfactual,option 3 : The green object and the purple cube collide,The red metal cylinder collides with the cyan object,incorrect,The green object and the purple cube collide,incorrect
+video_00045.mp4,question_3,How many cubes exit the scene before the red cube enters the scene?,descriptive,0,0,correct,0,correct
+video_00045.mp4,question_4,How many metal cubes enter the scene?,descriptive,2,0,incorrect,One,incorrect
+video_00045.mp4,question_5,Are there any purple objects that exit the scene after the blue object enters the scene?,descriptive,yes,No,incorrect,No,incorrect
+video_00045.mp4,question_6,What color is the moving rubber sphere?,descriptive,purple,purple,correct,Purple,correct
+video_00045.mp4,question_7,What is the shape of the metal object that is stationary when the blue cube enters the scene?,descriptive,sphere,sphere,correct,Sphere,correct
+video_00045.mp4,question_8,How many objects are moving?,descriptive,4,0,incorrect,2,incorrect
+video_00045.mp4,question_9,How many stationary brown objects are there when the red cube enters the scene?,descriptive,1,1,correct,One,correct
+video_00045.mp4,question_10,Are there any moving purple objects when the blue object enters the scene?,descriptive,yes,Yes,correct,No,correct
+video_00045.mp4,question_11,Which of the following is not responsible for the collision between the red cube and the cylinder?,explanatory,option 4 : the collision between the red cube and the blue cube,the presence of the brown sphere,incorrect,the presence of the brown sphere,incorrect
+video_00045.mp4,question_12,Which of the following is not responsible for the purple sphere's exit?,explanatory,option 1 : the presence of the gray sphere,the presence of the gray sphere,correct,the presence of the gray sphere,correct
+video_00045.mp4,question_13,"Without the cylinder, which event will happen?",counterfactual,option 2 : The red object and the gray object collide,The red object collides with the purple sphere,incorrect,The red object collides with the purple sphere,incorrect
+video_00045.mp4,question_14,"If the metal sphere is removed, which of the following will happen?",counterfactual,option 4 : The cylinder collides with the purple sphere,The cylinder collides with the purple sphere,correct,The cylinder collides with the purple sphere,correct
+video_00046.mp4,question_3,How many brown spheres exit the scene after the brown sphere enters the scene?,descriptive,0,0,correct,One.,correct
+video_00046.mp4,question_4,How many rubber spheres enter the scene after the brown object enters the scene?,descriptive,0,1,incorrect,1,incorrect
+video_00046.mp4,question_5,Are there any brown spheres that enter the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00046.mp4,question_6,What shape is the stationary rubber object when the green sphere enters the scene?,descriptive,cylinder,Cylinder,correct,Cylinder,correct
+video_00046.mp4,question_7,What is the shape of the moving object when the video begins?,descriptive,sphere,Sphere,correct,Cylinder,correct
+video_00046.mp4,question_8,How many moving gray objects are there when the video ends?,descriptive,0,0,correct,None.,correct
+video_00046.mp4,question_9,How many moving objects are there when the video ends?,descriptive,4,2,incorrect,Two,incorrect
+video_00046.mp4,question_10,Are there any moving cyan objects when the green object enters the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00046.mp4,question_11,Which of the following is responsible for the collision between the brown object and the cylinder?,explanatory,,the presence of the green metal object,incorrect,the presence of the green metal object,incorrect
+video_00046.mp4,question_12,Which of the following is responsible for the cylinder's colliding with the cyan sphere?,explanatory,option 4 : the presence of the brown object,the collision between the brown object and the cylinder,incorrect,the brown sphere's entrance,incorrect
+video_00046.mp4,question_13,What will happen next?,predictive,option 1 : The cylinder collides with the green sphere,The brown sphere and the cylinder collide,incorrect,The brown sphere and the cylinder collide.,incorrect
+video_00046.mp4,question_14,Which event will happen if the green sphere is removed?,counterfactual,option 2 : The cylinder and the cyan sphere collide,The brown object collides with the cyan sphere,incorrect,The brown object collides with the cyan sphere,incorrect
+video_00046.mp4,question_15,Which of the following will happen without the brown sphere?,counterfactual,option 1 : The cylinder collides with the green object,The cylinder collides with the green object,correct,The cylinder collides with the green object,correct
+video_00047.mp4,question_3,How many objects exit the scene after the cylinder enters the scene?,descriptive,2,3,incorrect,0,incorrect
+video_00047.mp4,question_4,How many cubes exit the scene?,descriptive,0,0,correct,0,correct
+video_00047.mp4,question_5,Are there any purple spheres that exit the scene after the purple sphere enters the scene?,descriptive,yes,Yes,correct,No.,correct
+video_00047.mp4,question_6,What color is the metal object that is stationary when the cylinder enters the scene?,descriptive,green,green,correct,Green,correct
+video_00047.mp4,question_7,What is the material of the sphere that is stationary when the video begins?,descriptive,metal,metal,correct,Green,correct
+video_00047.mp4,question_8,How many green objects are moving when the purple sphere exits the scene?,descriptive,1,1,correct,Zero,correct
+video_00047.mp4,question_9,How many objects are moving when the video ends?,descriptive,2,0,incorrect,None,incorrect
+video_00047.mp4,question_10,Are there any moving yellow objects when the purple object enters the scene?,descriptive,yes,Yes,correct,No.,correct
+video_00047.mp4,question_11,Which of the following is responsible for the purple sphere's exit?,explanatory,option 3 : the presence of the blue rubber cube,the collision between the metal sphere and the purple object,incorrect,the collision between the metal sphere and the purple object,incorrect
+video_00047.mp4,question_12,Which of the following is not responsible for the green object's exiting the scene?,explanatory,option 2 : the cylinder's entering the scene,the presence of the blue rubber cube,incorrect,the presence of the metal cylinder,incorrect
+video_00047.mp4,question_13,Which event will happen next?,predictive,option 1 : The cube collides with the cylinder,The green object collides with the cylinder,correct,The cube collides with the cylinder,correct
+video_00047.mp4,question_14,What will not happen if the metal sphere is removed?,counterfactual,option 3 : The cylinder collides with the rubber sphere,The cube and the cylinder collide,incorrect,The cube and the cylinder collide,incorrect
+video_00047.mp4,question_15,What will not happen if the cylinder is removed?,counterfactual,option 3 : The cube collides with the purple object,The cube collides with the purple object,correct,The cube collides with the purple object,correct
+video_00048.mp4,question_3,How many gray cubes enter the scene before the yellow cube enters the scene?,descriptive,1,1,correct,1,correct
+video_00048.mp4,question_4,How many rubber cubes enter the scene?,descriptive,2,2,correct,2,correct
+video_00048.mp4,question_5,Are there any metal spheres that enter the scene?,descriptive,no,No,correct,No,correct
+video_00048.mp4,question_6,What is the shape of the purple object that is moving when the video ends?,descriptive,cube,cube,correct,Cube,correct
+video_00048.mp4,question_7,What color is the moving cylinder?,descriptive,gray,gray,correct,Purple,correct
+video_00048.mp4,question_8,How many stationary purple objects are there when the gray cylinder enters the scene?,descriptive,2,2,correct,2,correct
+video_00048.mp4,question_9,How many blue objects are moving when the video ends?,descriptive,0,0,correct,Zero,correct
+video_00048.mp4,question_10,Are there any stationary purple objects when the video begins?,descriptive,yes,yes,correct,Yes,correct
+video_00048.mp4,question_11,Which of the following is not responsible for the gray cylinder's colliding with the gray cube?,explanatory,option 3 : the presence of the purple cylinder,the presence of the purple cylinder,correct,the presence of the red sphere,correct
+video_00048.mp4,question_12,Which event will happen next?,predictive,option 2 : The purple cube collides with the yellow cube,The purple cube collides with the yellow cube,correct,The purple cube collides with the yellow cube.,correct
+video_00048.mp4,question_13,"If the purple cylinder is removed, which of the following will not happen?",counterfactual,option 3 : The gray cylinder and the sphere collide,The gray cylinder and the sphere collide,incorrect,The gray cylinder and the sphere collide,incorrect
+video_00048.mp4,question_14,"If the sphere is removed, which of the following will not happen?",counterfactual,option 4 : The gray cube and the purple cylinder collide,The gray cylinder and the gray cube collide,incorrect,The purple cube and the yellow object collide,incorrect
+video_00049.mp4,question_3,How many objects enter the scene?,descriptive,3,2,incorrect,1,incorrect
+video_00049.mp4,question_4,How many collisions happen after the cyan cube enters the scene?,descriptive,2,0,incorrect,Two,incorrect
+video_00049.mp4,question_5,Are there any gray objects that enter the scene after the cyan cube enters the scene?,descriptive,yes,yes,correct,Yes.,correct
+video_00049.mp4,question_6,What is the material of the moving cube when the yellow object enters the scene?,descriptive,rubber,cyan,incorrect,Teal,incorrect
+video_00049.mp4,question_7,What is the material of the sphere that is moving when the gray cube enters the scene?,descriptive,metal,metal,correct,Yellow,correct
+video_00049.mp4,question_8,How many metal objects are stationary when the cyan cube enters the scene?,descriptive,3,3,correct,3,correct
+video_00049.mp4,question_9,How many cyan objects are moving when the yellow object enters the scene?,descriptive,2,2,correct,2,correct
+video_00049.mp4,question_10,Are there any stationary brown objects when the yellow object enters the scene?,descriptive,yes,Yes,correct,Yes,correct
+video_00049.mp4,question_11,Which of the following is not responsible for the collision between the cylinder and the metal cube?,explanatory,option 1 : the presence of the red metal sphere,the presence of the red metal sphere,correct,the presence of the red metal sphere,correct
+video_00049.mp4,question_12,What will happen next?,predictive,option 1 : The cyan cube and the yellow object collide,The cyan cube and the yellow object collide,correct,The cyan cube and the yellow object collide,correct
+video_00049.mp4,question_13,What will happen if the cyan cube is removed?,counterfactual,option 4 : The yellow object collides with the gray object,The cylinder and the yellow object collide,correct,The cylinder and the yellow object collide,correct
+video_00049.mp4,question_14,What will happen if the brown sphere is removed?,counterfactual,option 4 : The rubber object and the yellow object collide,The cyan cube and the cylinder collide,incorrect,The rubber object and the yellow object collide,incorrect
