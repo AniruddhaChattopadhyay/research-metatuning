@@ -1,3 +1,5 @@
 litellm
 openai
 dotenv-python
+tqdm
+pandas
